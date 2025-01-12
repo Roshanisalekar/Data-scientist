@@ -68,6 +68,6 @@
 
 (4) Inside of dictinary key can be int , str and tuple only values can be of any data type int,str,set,dict,list,set.
 
-(5) Empty set=set()
+(5) Empty dictionary={}
 
-(6) set  with single item ={"hello"}
+(6) dictionary  with single item ={"hello":1}
