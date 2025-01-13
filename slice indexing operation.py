@@ -22,5 +22,5 @@ print(b)
 #list slicing
 a=('o',1,9,'b','car','payal','mahesh')
 #you find 
-b=(a[2],a[3],a[6],a[5][0:3:1]+a[5][4])
+b=[a[2],a[3],a[6],a[5][0:3:1]+a[5][4]]
 print(b)
