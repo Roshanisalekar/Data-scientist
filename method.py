@@ -126,3 +126,47 @@ x=y
 y=z
 print(f"x={x}")
 print(f"y={y}")
+
+
+# set: unique element
+
+a = {1, 1, 2, 3, 2, 4, 3, 5, 6}
+b = {4, 4, 5, 5, 6, 4, 7, 8, 9}
+
+# union : both  set element
+# type :1
+c = a | b
+print(c)  # output:{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+# type :2
+d = a.union(b)
+print(d)
+
+# intersection : both common element
+# type :1
+
+e = a & b
+print(e)
+
+# type :2
+d = a.intersection(b)  # output:{4, 5, 6}
+print(d)
+
+
+g=a-b
+print(g) #output :{1, 2, 3} a set  may unique 
+q=b-a
+print(q) #output :{8, 9, 7}  b set may unique
+
+#m=g+q
+#print(q)#TypeError: unsupported operand type(s) for+: 'set' and 'set'
+
+
+s=g|q
+print(s)  #output :{1, 2, 3, 7, 8, 9}
+
+r=a.copy() #output :{1, 2, 3, 4, 5, 6}
+print(r)
+ 
+r=b.copy()  #output :{4, 5, 6, 7, 8, 9}
+print(r)
