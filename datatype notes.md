@@ -18,7 +18,7 @@ immutable :  immutable datatypes are those datatype value cannot change after th
 
 
 
-(1) numeric :
+(1) numeric : number datatype store the numeric values .
 
 int : 1,100,-2,-100,-oo to +oo (infinity)
 
