@@ -2,7 +2,9 @@
 
 immutable        
 
-(1) immmutable datatype are those datatype value cannot change after they are created .
+(1) immmutable datatype are those datatype value cannot change after they are created . but value can be change after created then location will be changed.
+
+ (python provide id then id syntax find out the location .)
 
 (2) It does not provide any method to add , remove or change the element.
 
