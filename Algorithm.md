@@ -21,7 +21,9 @@ Making coffee: Following a step-by-step process to make coffee is an algorithm.
  ***  How algorithms work ***
 
 1> Algorithms take input data
+
 2> The input data is processed through a series of steps in a specific order
+
 3> The output data is produced
 
 *** What are Flowcharts? ***
