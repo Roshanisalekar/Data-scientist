@@ -7,7 +7,9 @@
 3> Examples of algorithms
 
 Recipes: Recipes are a series of steps that are followed to create a dish. 
+
 Getting dressed: Putting on clothes in the right order is an algorithm. 
+
 Making coffee: Following a step-by-step process to make coffee is an algorithm. 
 
 *** type of algorithm *** 
