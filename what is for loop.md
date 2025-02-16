@@ -7,7 +7,7 @@ loop are two type
 2> while loop 
 
 
-for loop :
+1>  for loop :
 
 loops are used for sequential traversal . for traversing list ,tuple,string ,range etc.
 
@@ -23,7 +23,7 @@ for  i in range(start,end,step):
 4> range: function 
 
 
-while loop :
+2> while loop :
 
 Python While   is used to execute a block of statements repeatedly until a given condition is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed.
 
@@ -39,13 +39,13 @@ condition : true
 
 why we use loop :
 
-Avoid repetition
+1> Avoid repetition
 
-Save time
+2> Save time
 
-Make programs smaller
+3> Make programs smaller
 
-Make code easier to read
+4> Make code easier to read
 
 
 
