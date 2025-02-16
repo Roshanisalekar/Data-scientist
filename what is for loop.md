@@ -32,6 +32,7 @@ syntax :
 while condition :
     statement 
 
+
 while : keyword 
 condition : true 
 
@@ -39,8 +40,11 @@ condition : true
 why we use loop :
 
 Avoid repetition
+
 Save time
+
 Make programs smaller
+
 Make code easier to read
 
 
