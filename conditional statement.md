@@ -1,4 +1,4 @@
-conditional statement : condition based program (one at a time conditionrun)
+conditional statement : condition based program (one at a time condition run)
 
 there are three mainly cases
 
