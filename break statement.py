@@ -23,3 +23,12 @@ for i in d:
     if i==" ":
         break
 print()
+
+# example :4
+
+i=1
+while i<9:
+    print(i)
+    if i==3:
+        break
+    i+=1
