@@ -188,3 +188,71 @@ class computer:
 c=computer('keyboard','cpu',"mouse")
 print(c.part1)
 print(c.part2)
+
+
+# output:
+# oop
+# keyboard
+# cpu
+#-------------------------------------------------------------------------------------------
+
+# example : 11
+
+name="roshani"
+age=23
+class man():
+    gender="male"
+    def __init__(self,name):
+        self.name=name
+    def display(self):
+        #return f" my name is {self.name}"
+        return f" my name is {name}"
+obj=man("sagar")
+print(obj.display())
+
+# output:-
+#  my name is roshani
+
+#-------------------------------------------------------------------------------------------
+
+# example : 12
+
+class family():
+    gender="female"
+    def __init__(self,father,mother,brother,sister):
+        self.father=father
+        self.mother=mother
+        self.brother=brother
+        self.sister=sister
+
+    def show(self):
+        return f"{self.father},{self.mother},{self.brother},{self.sister} is my family "
+    
+obj1=family("ankush","savita","sagar","divya")
+print(obj1.show())
+
+# output :-
+# ankush,savita,sagar,divya is my family 
+
+#-------------------------------------------------------------------------------------------
+
+# example : 13
+
+
+age=30
+class char():
+    gender="male"
+    def __init__(self,age):
+        self.age=age
+    def countofage(self):
+        self.age=self.age-5
+        return self.age
+obj=char(34)
+print(obj.countofage())
+print(obj.age)
+
+# output:-
+# 29
+# 29
+
+#-----------------------------------------------------------------------------------------------------------
