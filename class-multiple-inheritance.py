@@ -148,3 +148,53 @@ print(m.trainer)
 # rajendra sir
 
 #-------------------------------------------------------------------------------------------------------------------
+# example :- 6
+
+        
+class dad():
+    money="2lac"
+    home="2BHK"
+    height=5.6
+    def talk(self):
+        return "my voice is hard"
+    def walk(self):
+        return "faster"
+
+        
+class mom(dad):
+    salary=25000
+    home="1BHK"
+    
+    def talk(self):
+        return "my voice is smooth"
+    def walk(self):
+        return "slower"
+    def sleep(self):
+        return "I am sleeping 4 hours"
+
+obj=mom()
+print(obj.height)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+print(obj.home)
+print(obj.salary)
+print(obj.home)
+print(obj.money)
+print(obj.sleep())
+print(obj.walk())
+
+class son(mom,dad):
+    pass
+
+obj=son()
+print(obj.money)
+print(obj.home)
+print(obj.salary)
+print(obj.home)
+
+# output:-
+
+# 2lac
+# 1BHK
+# 25000
+# 1BHK
+
+#----------------------------------------------------------------------------------------------------------
