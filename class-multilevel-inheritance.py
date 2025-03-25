@@ -154,3 +154,78 @@ print(m.trainer)
 # rajendra sir
 
 #-------------------------------------------------------------------------------------------------------------------
+# example :- 6
+
+class dadu():
+    age=80
+    hair="white"
+    bodycolor="white"
+    def talk(self):
+        return "my voice is smooth"
+    def walk(self):
+        return "slower"
+    def sleep(self):
+        return "I am sleeping 4 hours"
+    
+class nanu():
+    balance=2000000
+    land="2arcs"
+    education=12
+
+    def countofbalance():
+        return "0 balance"
+    
+    def behaivour():
+        return "good"
+
+class father(dadu):
+    salary=10000
+    pf=100
+    pension=20000
+    def look():
+        return "look is nice"
+    def color():
+        return "color is white"
+    def voice():
+        return "voice is smooth"
+
+class  mother(nanu,father):
+    money='2lac'
+    work="housewife"
+    exp='10 years'
+    def experince():
+        return " experience is good"
+    def cook():
+        return "cook is good"
+
+class son(mother,father):
+    pass
+
+obj1=son()
+obj2=mother()
+obj3=father()
+obj4=nanu()
+obj5=dadu()
+
+print(obj1.money)
+print(obj1.exp)
+print(obj1.work)
+
+print(obj1.salary)
+print(obj1.pf)
+print(obj1.pension)
+
+print(obj3.hair)
+print(obj3.bodycolor)
+print(obj3.age)
+
+# output:-
+# 2lac
+# 10 years
+# housewife
+# 10000
+# 100
+# 20000
+# white
+# white
+# 80
