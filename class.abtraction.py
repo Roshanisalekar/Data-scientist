@@ -1,5 +1,8 @@
-abstraction :- hiding unnecesary details from user through class and method .
+# abstraction :- hiding unnecesary details from user through class and method .
 
+# abstraction is a process of hiding the implementation  datails from the user only the highlighted  set of services provided to the user
+
+# real life example :-   call --->  green button    red button 
 class student:
 
     def __init__(self,name,surname,percentage):
